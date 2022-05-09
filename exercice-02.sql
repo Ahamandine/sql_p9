@@ -88,7 +88,7 @@ WHERE firstname = 'Arthur', lastname = 'Lacombe'
 -- Exo 2.9
 -- Supprimez un student :
 -- - student : Odette Thomas
-SELECT*
+SELECT *
 FROM student
 WHERE firstname = 'Odette', lastname = 'Lacombe'
 DELETE 
@@ -102,3 +102,5 @@ WHERE id = 123
 -- Note : vous devez supprimez les relations avec les dépendances mais pas les dépendances.
 -- Autrement dit ne supprimez aucun student ni aucun tag.
 
+SELECT *
+FROM project
